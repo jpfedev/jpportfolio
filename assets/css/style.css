@@ -974,7 +974,6 @@ section .container {
 }
 
 .column{
-  margin-bottom: 5rem;
 }
 
 .column img {
@@ -1002,3 +1001,14 @@ section .container {
   margin-right: 10px;
 }
 
+.column video{
+  margin-top: 5px;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border: 0;
+  border-top: 3px solid rgba(167, 167, 167, 0.1);
+  border-radius: 1rem;
+}
