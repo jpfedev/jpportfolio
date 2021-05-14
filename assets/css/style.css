@@ -973,9 +973,6 @@ section .container {
   margin-bottom: 1.5rem;
 }
 
-.column{
-}
-
 .column img {
   margin-top: 8px;
   vertical-align: middle;
@@ -1011,4 +1008,18 @@ hr {
   border: 0;
   border-top: 3px solid rgba(167, 167, 167, 0.1);
   border-radius: 1rem;
+}
+br{
+  margin-bottom: 6rem;
+}
+
+.btn{
+color: burlywood;
+border-color: burlywood;
+}
+
+.btn:hover{
+  color: white;
+  background-color: burlywood;
+  border-color: burlywood;
 }
