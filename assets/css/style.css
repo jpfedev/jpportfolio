@@ -35,11 +35,11 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: burlywood;
 }
 
 a:hover {
-  color: #35e888;
+  color: burlywood;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid burlywood;
   padding-bottom: 6px;
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: burlywood;
 }
 
 @media (max-width: 992px) {
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: burlywood;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #18d26e;
+  color: burlywood;
   text-decoration: none;
 }
 
@@ -361,7 +361,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: burlywood;
   margin: 4px 10px;
 }
 
@@ -381,7 +381,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: burlywood;
 }
 
 .about-me .content ul {
@@ -396,7 +396,7 @@ section .container {
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #18d26e;
+  color: burlywood;
 }
 
 .about-me .content p:last-child {
@@ -426,7 +426,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: burlywood;
   border-radius: 50px;
 }
 
@@ -476,7 +476,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #18d26e;
+  background-color: burlywood;
 }
 
 /*--------------------------------------------------------------
@@ -584,7 +584,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: burlywood !important;
 }
 
 @media (max-width: 767px) {
@@ -653,8 +653,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: burlywood;
+  border-color: burlywood;
 }
 
 .services .icon-box:hover .icon {
@@ -662,7 +662,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: burlywood;
 }
 
 .services .icon-box:hover .icon::before {
@@ -685,7 +685,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: burlywood;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -722,7 +722,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: burlywood;
 }
 
 .contact .php-email-form {
@@ -898,7 +898,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #18d26e !important;
+  background-color: burlywood !important;
 }
 
 .portfolio-details .portfolio-info {
