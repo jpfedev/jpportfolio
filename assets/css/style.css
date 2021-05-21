@@ -1045,4 +1045,8 @@ br{
     margin: 4px 2px;
     transition: 0.3s;
   }
+
+  .banner-area h2 span{
+    font-weight: bold;
+  }
   

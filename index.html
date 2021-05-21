@@ -45,7 +45,9 @@
       <h1><a href="index.html">Jerald A. Payongayong</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      <h2>I'm a passionate <span>Web designer</span></h2>
+      <div class="banner-area">
+      <h2>I am a passionate <span class="type"></span></h2>
+      </div>
       <div class="social-links">
         <a href="https://www.facebook.com/payongayongje/" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/jrldpyngyng/" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
@@ -245,11 +247,50 @@
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
             <p class="medium">
+            <span class="iconify" data-icon="logos:wordpress-icon" data-inline="false"></span>
+            </p>
+            <h3>WordPress</h3>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+
+      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+        <div class="icon-box">
+          <p class="medium">
+            <span class="iconify" data-icon="vscode-icons:file-type-php3" data-inline="false"></span>
+          </p>
+          <h3>PHP</h3>
+        </div>
+      </div>
+      
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <p class="medium">
+              <span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span>
+            </p>
+            <h3>Github</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <p class="medium">
+              <span class="iconify" data-icon="entypo:video" data-inline="false"></span>
+            </p>
+            <h3>Video Editing</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <p class="medium">
               <span class="iconify" data-icon="vscode-icons:file-type-photoshop" data-inline="false"></span>
             </p>
             <h3>Graphic Design</h3>
           </div>
         </div>
+
 
         </div>
 
@@ -453,6 +494,29 @@
             </div>
           </div>
         </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Video Trailer</h3>
+              <div>
+                <p class="mb-4">
+                  Video and Templates for my clients trailer.
+                </p>
+              </div>
+              <a target="_blank" class="btn" href="assets/img/projects/project3.mp4">
+                View Full Video
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+                <div class="column">
+                  <video class="img-fluid" src="assets/img/projects/project3.mp4" controls>
+                </div>
+            </div>
+          </div>
+        </div>
 
       
       </div><!--Project Div-->
@@ -496,6 +560,19 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/index.js"></script>
+  <script src="assets/js/typed.js"></script>
+  <script>
+    var typed = new Typed('.type', {
+      strings: [
+        'Web Developer',
+        'Graphic Designer',
+        'Freelancer'
+      ],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true
+      });
+  </script>
 
 </body>
 
